@@ -56,8 +56,8 @@ class _EditProductScreenState extends State<EditProductScreen> {
         _imageUrlController.text = _editedProduct.imageUrl;
       }
     }
-    print(_editedProduct.title);
-    print(_editedProduct.price);
+    //print(_editedProduct.title);
+    //print(_editedProduct.price);
     _isInit = false;
     super.didChangeDependencies();
   }
