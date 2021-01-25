@@ -96,7 +96,7 @@ class Products with ChangeNotifier {
       _items = loadedProducts;
       notifyListeners();
     } catch (error) {
-      throw (error); //TODO on later date
+      throw (error);
     }
   }
 
